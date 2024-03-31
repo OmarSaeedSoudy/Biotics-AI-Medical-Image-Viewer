@@ -1,0 +1,91 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #262175;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.site-title {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.site-title:hover {
+  color: #c04242;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #c04242;  /* Hover background color */
+}
+
+.nav-button:focus,
+.nav-button:active {
+  background-color: #c04242;  /* Active (clicked) background color */
+  outline: none;
+}
+
+.user-settings {
+  position: relative;
+}
+
+.user-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.user-button i {
+  margin-left: 0.5rem;
+}
+
+.settings-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  width: 150px;
+}
+
+.settings-dropdown button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.settings-dropdown button:hover {
+  background-color: #eb0a0a;
+}

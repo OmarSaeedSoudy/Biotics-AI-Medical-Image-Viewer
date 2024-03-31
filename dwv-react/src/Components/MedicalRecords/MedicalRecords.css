@@ -1,0 +1,230 @@
+.medical-record-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .dropzone.dragover {
+    background-color: #f0f0f0;
+  }
+  
+  .dropzone p {
+    margin: 0;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    color: green;
+  }
+
+  .medical-record-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .dropzone-label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .dropzone.dragover {
+    background-color: #f0f0f0;
+  }
+  
+  .dropzone p {
+    margin: 0;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
+  /* Improved Dropdown Menu Styling */
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Improved Description Textarea Styling */
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Set a minimum height */
+  }
+  
+  /* Improved Submit Button Styling */
+button[type="submit"] {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 12px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor pointer */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+
+  .medical-records-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .medical-record-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .medical-record-container h3 {
+    margin-top: 0;
+  }
+  
+  .medical-record-container a {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .medical-record-container pre {
+    white-space: pre-wrap;
+  }
+  
+  .view-dicom-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-dicom-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* ...existing styles... */
+  .dicom-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  }
+  
+  .dicom-modal-content {
+    position: relative;
+    margin: 15px;
+    padding: 20px;
+    background-color: #fff;
+    width: 90%;
+    max-width: 800px;
+    overflow-y: auto;  /* Enable vertical scrolling */
+    max-height: 80vh;  /* Limit the maximum height */
+  }
+  
+  .dicom-modal-close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .dicom-modal-close:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .dicom-modal-content input[type="text"] {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dicom-modal-content input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  

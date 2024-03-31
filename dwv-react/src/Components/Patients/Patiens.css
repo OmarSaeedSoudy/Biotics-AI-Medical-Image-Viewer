@@ -1,0 +1,54 @@
+.patients-list-container {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+.patient-container { /* New styles for the parent container */
+    display: flex; /* Enable flexbox layout */
+    flex-wrap: wrap; /* Allow containers to wrap to next line if needed*/
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .patient-name {
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
