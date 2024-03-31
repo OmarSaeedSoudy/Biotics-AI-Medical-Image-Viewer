@@ -7,8 +7,9 @@ WORKDIR /usr/src/app
 # Copy package.json and yarn.lock files to the working directory
 COPY package.json yarn.lock ./
 
-# Install project dependencies
-RUN yarn install
+# Install project dependencies and react-scripts
+RUN yarn install && \
+    yarn add react-scripts
 
 # Copy the rest of the application code to the working directory
 COPY . .

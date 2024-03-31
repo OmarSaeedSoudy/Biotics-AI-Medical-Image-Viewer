@@ -17,6 +17,10 @@ def create_app():
     app = Flask(__name__)
 
     CORS(app, supports_credentials=True)
+    CORS(app, resources={r"/user/*": {"origins": "http://127.0.0.1:3000"}})
+    CORS(app, resources={r"/patient/*": {"origins": "http://127.0.0.1:3000"}})
+    CORS(app, resources={r"/patients/*": {"origins": "http://127.0.0.1:3000"}})
+    CORS(app, resources={r"/medical_records/*": {"origins": "http://127.0.0.1:3000"}})
     
     """App Configurations"""
     app.config["PROPAGATE_EXCEPTIONS"] = True
