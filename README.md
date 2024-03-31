@@ -77,6 +77,8 @@ Copy code
 docker-compose up --build
 This command will build the Docker images for both the backend and frontend, create and start the containers, and output the logs to the terminal.
 
+Note: This build takes between 5 to 10 minutes.
+
 Access the Application
 
 Backend: Open your web browser and navigate to http://localhost:5000.
