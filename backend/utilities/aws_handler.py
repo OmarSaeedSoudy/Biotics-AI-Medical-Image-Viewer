@@ -10,9 +10,7 @@ class AmazonWebServicesHandler:
             Consider using environment variables or AWS credentials file for security.
         """
         self.s3_client = boto3.client(
-            "s3",
-            aws_access_key_id="AKIAW3MEATE7UETOES5B",  # AWS Access Key
-            aws_secret_access_key="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"  # AWS Secret Access Key
+            "s3"
         )
         
     def upload_file(self, file_local_path, s3_bucket, s3_key):
